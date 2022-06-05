@@ -1,0 +1,668 @@
+Date: Sun, 5 Jun 2022 16:54:11 +1000 (AEST)
+Message-ID: <609453103.124510.1654412051939@spvx10238.hq.local>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_124509_312737207.1654412051926"
+
+------=_Part_124509_312737207.1654412051926
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Cloud Controls List</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Cloud Controls List</h1>
+    <div class=3D"Section1">
+        <p></p>
+<div class=3D"table-wrap">
+<table class=3D"aui metadata-summary-macro null" data-cql=3D"label =3D &quo=
+t;workload-assessment&quot; and space =3D currentSpace()" data-details-spac=
+e-key=3D"CS" data-details-content-id=3D"475194282" data-headings=3D"Domain,=
+ Status, Standards, Assessment Questions, Attestation Guidance" data-first-=
+column-heading=3D"Title" data-count-comments=3D"false" data-count-likes=3D"=
+false" data-total-pages=3D"1" data-page-size=3D"1000" data-sort-by=3D"Title=
+" data-reverse-sort=3D"false" data-blueprint-present=3D"false">
+<thead>
+<tr>
+<th class=3D"sorter-text">Title</th>
+<th>Domain</th>
+<th>Status</th>
+<th>Standards</th>
+<th>Assessment Questions</th>
+<th>Attestation Guidance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"title" data-content-id=3D"475170564"><a href=3D"/display/CS/CT=
+RL-001%3A+Backup+and+Restoration">CTRL-001: Backup and Restoration</a></td>
+<td>BCR</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Is your Workload backed up according to the IOOF Backup Policy</li>
+<li>Can you restore your workload from a backup and meet your agreed RPO?</=
+li>
+<li>Are your backups secure from deletion?</li>
+</ul></td>
+<td>
+<ul>
+<li>Provide a screenshots of Backups taken and the schedule used</li>
+<li>Provide screenshots of a restored resource using a backup</li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475179909"><a href=3D"/display/CS/CT=
+RL-002%3A+Disaster+Recovery">CTRL-002: Disaster Recovery</a></td>
+<td>BCR</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Do you have a Disaster Recovery Plan?</li>
+<li>Has your Disaster Recovery Plan been reviewed?</li>
+<li>Have you performed a successful Disaster Recovery test?</li>
+</ul></td>
+<td>
+<ul>
+<li>Evidence of the Disaster Recovery Plan in ServiceNow</li>
+<li>Evidence of a successful Disaster Recovery Test</li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475179915"><a href=3D"/display/CS/CT=
+RL-003%3A+Business+Continuity">CTRL-003: Business Continuity</a></td>
+<td>BCR</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Do you have a Business Continuity Plan?</li>
+<li>Has your Business Continuity Plan been reviewed?</li>
+<li>Has your Business Continuity Plan been tested?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475179926"><a href=3D"/display/CS/CT=
+RL-004%3A+Resilient+Architecture">CTRL-004: Resilient Architecture</a></td>
+<td>BCR</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Can your Architecture scale to meet variable demand (both horizontally =
+and vertically)?</li>
+<li>Can your Architecture recover from component degradation?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475179930"><a href=3D"/display/CS/CT=
+RL-005%3A+Infrastructure+Monitoring">CTRL-005: Infrastructure Monitoring</a=
+></td>
+<td>BCR</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>How do you monitor the health of your Workload?</li>
+<li>How do you ensure that Incidents are reported on and responded to?</li>
+<li>How do you ensure that Incidents are logged in a Service Management too=
+l?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180601"><a href=3D"/display/CS/CT=
+RL-006%3A+Workload+Access+Control">CTRL-006: Workload Access Control</a></t=
+d>
+<td>IAM</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Do you have Role Based Access Controls and what are the privileges?</li=
+>
+<li>How do you provision access?</li>
+<li>How do you approve access?</li>
+<li>How revalidate access?</li>
+<li>How is access revocation handled?</li>
+<li>How do you restrict administration privileges?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180596"><a href=3D"/display/CS/CT=
+RL-007%3A+Infrastructure+Access">CTRL-007: Infrastructure Access</a></td>
+<td>IAM</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Do you have Role Based Access Controls and what are the privileges?</li=
+>
+<li>How do you provision access?</li>
+<li>How do you approve access?</li>
+<li>How revalidate access?</li>
+<li>How is access revocation handled?</li>
+<li>How do you restrict administration privileges?</li>
+<li>How do you implemented time based access?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180594"><a href=3D"/pages/viewpag=
+e.action?pageId=3D475180594">CTRL-008: Prod / Non-Prod Segregation</a></td>
+<td>Infrastructure</td>
+<td><br></td>
+<td>
+<ul>
+<li>Each Account has a distinct CIDR Range</li>
+<li>Each Account is a distinct entity</li>
+<li>Each Account is in a separate Domain (i.e. Dev vs Prod)</li>
+</ul></td>
+<td>
+<ul>
+<li>Are your Production and Non-Production Environments appropriately segre=
+gated?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180605"><a href=3D"/display/CS/CT=
+RL-009%3A+Logging+Enabled">CTRL-009: Logging Enabled</a></td>
+<td>Infrastructure</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Are Logs capturing all Security information?</li>
+<li>Are the logs protected from tampering?</li>
+<li>Are the Logs protected from accidental or malicious deletion?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180726"><a href=3D"/display/CS/CT=
+RL-010%3A+Network+Segmentation">CTRL-010: Network Segmentation</a></td>
+<td>Infrastructure</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>How do you ensure only authorised traffic can access your Workload?</li=
+>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180901"><a href=3D"/display/CS/CT=
+RL-011%3A+Data+Sovereignty">CTRL-011: Data Sovereignty</a></td>
+<td>Data Management</td>
+<td><br></td>
+<td><br></td>
+<td>How do you ensure all your data is located in Australia?</td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180903"><a href=3D"/display/CS/CT=
+RL-012%3A+Data+Masking">CTRL-012: Data Masking</a></td>
+<td>Data Management</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>How do you ensure sensitive data is masked?</li>
+<li>What is your process from bringing sensitive data from Production to No=
+n-Production environments?</li>
+<li>Does your Data Masking process meet the IOOF Data Masking Policy?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180907"><a href=3D"/display/CS/CT=
+RL-013%3A+Data+Retention">CTRL-013: Data Retention</a></td>
+<td>Data Management</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>How do you ensure that your backups are retained for the appropriate le=
+ngth of time?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180910"><a href=3D"/display/CS/CT=
+RL-014%3A+Encryption+at+Rest">CTRL-014: Encryption at Rest</a></td>
+<td>Security</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Are all your Data stores Encrypted at Rest?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180913"><a href=3D"/display/CS/CT=
+RL-015%3A+Encryption+in+Transit">CTRL-015: Encryption in Transit</a></td>
+<td>Security</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>How do you encrypt your data in transit?</li>
+<li>What are the data flows of your Workload?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180984"><a href=3D"/display/CS/CT=
+RL-016%3A+Key+Management">CTRL-016: Key Management</a></td>
+<td>Security</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>How do you generate Keys?</li>
+<li>How do you distribute your Keys?</li>
+<li>How do you rotate your Keys?</li>
+<li>How do you revoke your Keys?</li>
+<li>How do you destroy your Keys?</li>
+<li>How do you activate your Keys?</li>
+<li>How do you suspend your Keys?</li>
+<li>How do you deactivate your Keys?</li>
+<li>How do you ensure access to your Keys are limited?</li>
+<li>How do you ensure your Keys meet cryptographic standards?</li>
+<li>If you are using AWS KMS use this pattern, if not more stringent attest=
+ation</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180987"><a href=3D"/display/CS/CT=
+RL-017%3A+Configuration+Management">CTRL-017: Configuration Management</a><=
+/td>
+<td>Security</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>How do you ensure you are using approved Machine Images?</li>
+<li>How do you ensure you are using the latest Hardened Image?</li>
+<li>How do you ensure that you are alerted to an instance that is out of Pa=
+tch Currency?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475180990"><a href=3D"/pages/viewpag=
+e.action?pageId=3D475180990">CTRL-018: Web Application Firewall (Public Fac=
+ing Workloads Only)</a></td>
+<td>Security</td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475181058"><a href=3D"/display/CS/CT=
+RL-019%3A+Secure+Source+Code">CTRL-019: Secure Source Code</a></td>
+<td>Operations</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>How do you ensure that your source code meets Secure Coding practices?<=
+/li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475181062"><a href=3D"/display/CS/CT=
+RL-020%3A+Change+Management">CTRL-020: Change Management</a></td>
+<td>Operations</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>How do you ensure that only Reviewed code gets deployed?</li>
+<li>Do your changes follow the approved IOOF change process?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475181066"><a href=3D"/display/CS/CT=
+RL-021%3A+Tagging+Standards">CTRL-021: Tagging Standards</a></td>
+<td>Operations</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>How do you ensure that all your Cloud resources are tagged appropriatel=
+y?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475181079"><a href=3D"/display/CS/CT=
+RL-022%3A+ORR+Completed">CTRL-022: ORR Completed</a></td>
+<td>Operations</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Has your Solution Design been assessed by Security?</li>
+<li>Has your Workload been onboarded into the CMDB?</li>
+<li>Has your Recovery Plan been documented?</li>
+<li>Has your Continuity Plan been documented?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475181081"><a href=3D"/display/CS/CT=
+RL-023%3A+Pen+Test">CTRL-023: Pen Test</a></td>
+<td>Operations</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Have you successfully completed a Pen Test?</li>
+</ul></td>
+<td>
+<ul>
+<li>Provide sign off from Security and the Pen Testers</li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475181083"><a href=3D"/display/CS/CT=
+RL-024%3A+Materiality+Assessment">CTRL-024: Materiality Assessment</a></td>
+<td>Operations</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Have you completed the Materiality Assessment?</li>
+</ul></td>
+<td>
+<ul>
+<li>Attach the signed off Materiality Assessment.</li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475181085"><a href=3D"/display/CS/CT=
+RL-025%3A+Application+Logging">CTRL-025: Application Logging</a></td>
+<td>Operations</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Does your application log events?</li>
+<li>Does your application log access?</li>
+</ul></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475181088"><a href=3D"/display/CS/CT=
+RL-026%3A+Code+Review+Process">CTRL-026: Code Review Process</a></td>
+<td>Operations</td>
+<td><br></td>
+<td><br></td>
+<td>
+<ul>
+<li>Does your code get peer reviewed before deployment?</li>
+</ul></td>
+<td>
+<ul>
+<li>Attach evidence of a Pull request and Review in GitHub.</li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"481628815"><a href=3D"/display/CS/CT=
+RL-027%3A+Cost+Monitoring">CTRL-027: Cost Monitoring</a></td>
+<td>Operations</td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+</tr>
+<tr>
+<td class=3D"title" data-content-id=3D"475179900"><a href=3D"/display/CS/Te=
+mplate+-+Workload+Assessment+Questionnaire">Template - Workload Assessment =
+Questionnaire</a></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_124509_312737207.1654412051926--
