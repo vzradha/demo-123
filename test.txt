@@ -1,5 +1,0 @@
-The Cloud Governance Framework (the Framework) is to set the direction of cloud governance for the onboarding and on-going management of cloud technologies, services and solution at IOOF and provide a set of principles, controls (based on risks), relevant processes and guardrails (preventative / detective), based on IOOF’s enterprise governance policy requirements and regulatory requirements.
-
-The Framework lays a foundation for good security practices in the procurement and implementation of new cloud-based systems. The intention here is to provide a base for continuous improvement in alignment with industry standards (including vendor best practices like the AWS Well  Architected Framework etc) such that governing principles are implemented from the beginning into new systems (or new projects).
-
-Where applicable, the Framework will be supplemented by technical control guidance to securely provision, build and manage IOOF’s managed cloud environments and the process for reviewing and approving related workloads hosted within these cloud environments.
